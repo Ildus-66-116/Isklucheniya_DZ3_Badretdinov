@@ -1,0 +1,7 @@
+package org.example;
+
+public class UserArraySizeException extends Exception{
+    public UserArraySizeException(String message) {
+        super(message);
+    }
+}
